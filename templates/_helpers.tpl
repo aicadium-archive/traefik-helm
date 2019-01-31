@@ -94,6 +94,7 @@ Create custom cipherSuites block
           ]
 {{- end -}}
 
+{{/*
 Create the block for RootCAs.
 */}}
 {{- define "traefik.rootCAs" -}}
